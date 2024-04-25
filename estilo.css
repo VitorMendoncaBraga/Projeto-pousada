@@ -1,0 +1,172 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+.link li{
+    list-style: none;
+}
+
+.link ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 40px;
+}
+
+.link{
+    align-items: center;
+    display: flex;
+}
+
+span{
+    color: rgb(30, 118, 190);
+}
+
+.link a{
+    text-decoration: none;
+    color:black;
+}
+
+.banner{
+    background-image: url(img-fundo.jpg);
+    background-size: 1920px 1080px;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0 , 0.4);
+    width: 100%;
+}
+
+.banner-info{
+    padding: 300px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.quarto-solteiro-imgs{
+    display: flex;
+    justify-content: space-around;
+    max width: 770px;
+}
+
+.quarto-solteiro-info{
+    text-align: center;
+    line-height: 100px;
+    padding: 70px;
+}
+
+.quarto-casal-imgs{
+    display: flex;
+    justify-content: space-around;
+    max width: 770px;
+}
+
+.quarto-casal-info{
+    text-align: center;
+    line-height: 100px;
+    padding: 70px;
+}
+
+.quarto-list ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.quarto-solteiro, .quarto-familia{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.quarto-familia-imgs{
+    display: flex;
+    justify-content: space-around;
+    max width: 770px;
+}
+
+.quarto-familia-info{
+    text-align: center;
+    line-height: 100px;
+    padding: 70px;
+}
+
+footer{
+    background-color: rgb(20, 124, 102);
+    color: white;
+    height: 100%;
+  
+}
+
+.dados{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.dados-end{
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+}
+
+.endereco{
+    display: flex;
+    padding-top: 10px;
+}
+
+.telefone{
+    display: flex;
+    padding-top: 10px;
+}
+
+.calendario{
+    display: flex;
+    padding-top: 10px;
+}
+
+.endereco-img{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.telefone-img{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.calendario-img{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.endereco-info{
+    margin-right: 30%;
+}
+
+.dados{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.bem-vindo-quarto{
+    display: flex;
+}
+
+.link-list:hover{
+    border-bottom: 3px solid rgb(30, 118, 190);
+}

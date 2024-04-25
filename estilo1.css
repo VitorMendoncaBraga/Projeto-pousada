@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+.link li{
+    list-style: none;
+}
+
+.link ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 40px;
+}
+
+.link{
+    align-items: center;
+    display: flex;
+}
+
+span{
+    color: rgb(30, 118, 190);
+}
+
+.link a{
+    text-decoration: none;
+    color:black;
+}
+
+.banner{
+    background-image: url(img-fundo.jpg);
+    background-size: 1920px 1080px;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0 , 0.4);
+    width: 100%;
+}
+
+.banner-info{
+    padding: 300px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: rgb(20, 124, 102);
+    color: white;
+    height: 100%;
+  
+}
+
+.dados{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.dados-end{
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+}
+
+.endereco{
+    display: flex;
+    padding-top: 10px;
+}
+
+.telefone{
+    display: flex;
+    padding-top: 10px;
+}
+
+.calendario{
+    display: flex;
+    padding-top: 10px;
+}
+
+.endereco-img{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.telefone-img{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.calendario-img{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.endereco-info{
+    margin-right: 30%;
+}
+
+.dados{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.bem-vindo-info{
+    text-align: center;
+    padding: 100px;
+    line-height: 70px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info1, .info2, .info3{
+    text-align: center;
+    padding: 10px;
+}
+
+.card, .card2{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+span .negrito{
+    font-weight: bold;
+    color: black;
+}
+
+.card2{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 700px;
+    margin-bottom: 100px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+
+.card2-info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.rota{
+    text-align: center;
+    padding: 100px;
+    line-height: 70px;
+}
+
+.negrito{
+    font-weight: bolder;
+    color: black;
+}
+
+.link-list:hover{
+    border-bottom: 3px solid rgb(30, 118, 190);
+}
